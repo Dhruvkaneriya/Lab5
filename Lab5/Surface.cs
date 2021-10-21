@@ -103,6 +103,9 @@ namespace Lab5.ModelComponents
 			//TODO: Implement -> need to split the double emitPhonons into it's
 			// integer component (EmitPhonons) and its
 			// fractional component (EmitPhononsFrac)
+			double EmitPhononsFrac = emitPhonons;
+            Console.WriteLine(emitPhonons);
+            Console.WriteLine(EmitPhononsFrac);
 		}
 	}
 }
