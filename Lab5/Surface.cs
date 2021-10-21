@@ -56,8 +56,16 @@ namespace Lab5.ModelComponents
         /// <returns>The new cell in which the phonon will reside</returns>
         public override Cell HandlePhonon(Phonon p)
 		{
-			//TODO: Implement
-			throw new NotImplementedException();
+			Vector direction = p.Direction;
+			if (Location == SurfaceLocation.left || Location == SurfaceLocation.right)
+			{
+				p.SetDirection(-direction.DX, direction.DY);
+			}
+			else
+			{
+				p.SetDirection(direction.DX, -direction.DY);
+			}
+			return cell;
 		}
 	}
 
@@ -82,8 +90,16 @@ namespace Lab5.ModelComponents
 		/// <returns>The cell the phonon resided in prior to being removed from the simulation</returns>
 		public override Cell HandlePhonon(Phonon p)
 		{
-			// TODO: implement
-			throw new NotImplementedException();
+			Vector direction = p.Direction;
+			if (Location == SurfaceLocation.left || Location == SurfaceLocation.right)
+			{
+				p.SetDirection(-direction.DX, direction.DY);
+			}
+			else
+			{
+				p.SetDirection(direction.DX, -direction.DY);
+			}
+			return cell;
 		}
 		public double GetEmitEnergy(double tEq, double simTime, double length)
 		{
@@ -103,9 +119,8 @@ namespace Lab5.ModelComponents
 			//TODO: Implement -> need to split the double emitPhonons into it's
 			// integer component (EmitPhonons) and its
 			// fractional component (EmitPhononsFrac)
-			double EmitPhononsFrac = emitPhonons;
-            Console.WriteLine(emitPhonons);
-            Console.WriteLine(EmitPhononsFrac);
+			decimal EmitPhononsFrac = Convert.ToDecimal(emitPhonons);
+            Console.WriteLine($"integer component:{0} and decimal component:{1} ",emitPhonons, EmitPhononsFrac);
 		}
 	}
 }
