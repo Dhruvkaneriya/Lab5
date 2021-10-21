@@ -8,7 +8,9 @@ namespace UnitTest
         [TestMethod]
         public void TransitionSurfaceTest()
         {
-
+            TransitionSurface ts = new TransitionSurface();
+            Assert.AreEqual(0,1);
+            Assert.AreEqual(0,2);
         }
     }
 
@@ -17,7 +19,9 @@ namespace UnitTest
         [TestMethod]
         public void EmitSurfaceTest() 
         {
-        
+            EmitSurface es = new EmitSurface();
+            Assert.AreEqual(0,1);
+            Assert.AreEqual(0,2);
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DhruvDK\\source\\repos\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DhruvDK\\source\\repos\\Lab5\\Lab5.csproj": {
+    "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\Lab5\\Lab5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DhruvDK\\source\\repos\\Lab5\\Lab5.csproj",
+        "projectUniqueName": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\Lab5\\Lab5.csproj",
         "projectName": "Lab5",
-        "projectPath": "C:\\Users\\DhruvDK\\source\\repos\\Lab5\\Lab5.csproj",
+        "projectPath": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\Lab5\\Lab5.csproj",
         "packagesPath": "C:\\Users\\DhruvDK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DhruvDK\\source\\repos\\Lab5\\obj\\",
+        "outputPath": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\Lab5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DhruvDK\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\DhruvDK\\source\\repos\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DhruvDK\\source\\repos\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "C:\\Users\\DhruvDK\\source\\repos\\UnitTest\\UnitTest.csproj",
+        "projectPath": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\UnitTest\\UnitTest.csproj",
         "packagesPath": "C:\\Users\\DhruvDK\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DhruvDK\\source\\repos\\UnitTest\\obj\\",
+        "outputPath": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DhruvDK\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\DhruvDK\\source\\repos\\Lab5\\Lab5.csproj": {
-                "projectPath": "C:\\Users\\DhruvDK\\source\\repos\\Lab5\\Lab5.csproj"
+              "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\Lab5\\Lab5.csproj": {
+                "projectPath": "C:\\Users\\DhruvDK\\Documents\\Cambrian\\IOT1026\\Repositories\\Lab5\\Lab5\\Lab5.csproj"
               }
             }
           }
